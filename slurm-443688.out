@@ -1,0 +1,2783 @@
+ 
+:: initializing oneAPI environment ...
+   slurm_script: BASH_VERSION = 4.2.46(1)-release
+   args: Using "$@" for setvars.sh arguments: --force
+:: advisor -- latest
+:: ccl -- latest
+:: clck -- latest
+:: compiler -- latest
+:: dal -- latest
+:: debugger -- latest
+:: dev-utilities -- latest
+:: dnnl -- latest
+:: dpcpp-ct -- latest
+:: dpl -- latest
+:: inspector -- latest
+:: intelpython -- latest
+:: ipp -- latest
+:: ippcp -- latest
+:: ipp -- latest
+:: itac -- latest
+:: mkl -- latest
+:: mpi -- latest
+:: tbb -- latest
+:: vpl -- latest
+:: vtune -- latest
+:: oneAPI environment initialized ::
+ 
+SLURM_CPUS_PER_TASK =
+SLURM_MEM_PER_NODE = 514992
+
+Setting up Ising model.
+num_spin =  100
+beta     =  1.0000
+ising_h  = -2.0000
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  2.0000
+ising_h  = -2.0000
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  0.5000
+ising_h  = -2.0000
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  10.0000%
+MC progress:  20.0000%
+MC progress:  30.0000%
+MC progress:  10.0000%
+MC progress:  10.0000%
+MC progress:  40.0000%
+MC progress:  50.0000%
+MC progress:  20.0000%
+MC progress:  20.0000%
+MC progress:  60.0000%
+MC progress:  70.0000%
+MC progress:  80.0000%
+MC progress:  30.0000%
+MC progress:  30.0000%
+MC progress:  90.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  2.0000
+ising_h  = -1.9200
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  40.0000%
+MC progress:  40.0000%
+MC progress:  10.0000%
+MC progress:  20.0000%
+MC progress:  50.0000%
+MC progress:  30.0000%
+MC progress:  50.0000%
+MC progress:  60.0000%
+MC progress:  40.0000%
+MC progress:  50.0000%
+MC progress:  60.0000%
+MC progress:  70.0000%
+MC progress:  60.0000%
+MC progress:  70.0000%
+MC progress:  80.0000%
+MC progress:  90.0000%
+MC progress:  70.0000%
+MC progress:  80.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  2.0000
+ising_h  = -1.8400
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  80.0000%
+MC progress:  10.0000%
+MC progress:  90.0000%
+MC progress:  20.0000%
+MC progress:  90.0000%
+MC progress:  30.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  0.5000
+ising_h  = -1.9200
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  40.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  1.0000
+ising_h  = -1.9200
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  50.0000%
+MC progress:  10.0000%
+MC progress:  10.0000%
+MC progress:  60.0000%
+MC progress:  70.0000%
+MC progress:  20.0000%
+MC progress:  80.0000%
+MC progress:  20.0000%
+MC progress:  30.0000%
+MC progress:  30.0000%
+MC progress:  90.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  2.0000
+ising_h  = -1.7600
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  40.0000%
+MC progress:  40.0000%
+MC progress:  10.0000%
+MC progress:  20.0000%
+MC progress:  50.0000%
+MC progress:  30.0000%
+MC progress:  50.0000%
+MC progress:  40.0000%
+MC progress:  60.0000%
+MC progress:  60.0000%
+MC progress:  70.0000%
+MC progress:  50.0000%
+MC progress:  80.0000%
+MC progress:  70.0000%
+MC progress:  60.0000%
+MC progress:  70.0000%
+MC progress:  90.0000%
+MC progress:  80.0000%
+MC progress:  80.0000%
+MC progress:  90.0000%
+MC progress:  90.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  0.5000
+ising_h  = -1.8400
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  2.0000
+ising_h  = -1.6800
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  10.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  1.0000
+ising_h  = -1.8400
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  10.0000%
+MC progress:  20.0000%
+MC progress:  30.0000%
+MC progress:  10.0000%
+MC progress:  20.0000%
+MC progress:  40.0000%
+MC progress:  20.0000%
+MC progress:  50.0000%
+MC progress:  30.0000%
+MC progress:  60.0000%
+MC progress:  70.0000%
+MC progress:  30.0000%
+MC progress:  80.0000%
+MC progress:  40.0000%
+MC progress:  90.0000%
+MC progress:  40.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  2.0000
+ising_h  = -1.6000
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  50.0000%
+MC progress:  50.0000%
+MC progress:  10.0000%
+MC progress:  60.0000%
+MC progress:  20.0000%
+MC progress:  60.0000%
+MC progress:  30.0000%
+MC progress:  70.0000%
+MC progress:  70.0000%
+MC progress:  40.0000%
+MC progress:  50.0000%
+MC progress:  80.0000%
+MC progress:  60.0000%
+MC progress:  80.0000%
+MC progress:  70.0000%
+MC progress:  90.0000%
+MC progress:  90.0000%
+MC progress:  80.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  0.5000
+ising_h  = -1.7600
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  1.0000
+ising_h  = -1.7600
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  90.0000%
+MC progress:  10.0000%
+MC progress:  10.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  2.0000
+ising_h  = -1.5200
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  20.0000%
+MC progress:  20.0000%
+MC progress:  10.0000%
+MC progress:  30.0000%
+MC progress:  30.0000%
+MC progress:  20.0000%
+MC progress:  40.0000%
+MC progress:  30.0000%
+MC progress:  40.0000%
+MC progress:  40.0000%
+MC progress:  50.0000%
+MC progress:  50.0000%
+MC progress:  50.0000%
+MC progress:  60.0000%
+MC progress:  60.0000%
+MC progress:  60.0000%
+MC progress:  70.0000%
+MC progress:  70.0000%
+MC progress:  80.0000%
+MC progress:  70.0000%
+MC progress:  80.0000%
+MC progress:  90.0000%
+MC progress:  80.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  0.5000
+ising_h  = -1.6800
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  90.0000%
+MC progress:  10.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  1.0000
+ising_h  = -1.6800
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  90.0000%
+MC progress:  10.0000%
+MC progress:  20.0000%
+MC progress:  20.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  2.0000
+ising_h  = -1.4400
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  30.0000%
+MC progress:  30.0000%
+MC progress:  10.0000%
+MC progress:  40.0000%
+MC progress:  40.0000%
+MC progress:  50.0000%
+MC progress:  20.0000%
+MC progress:  60.0000%
+MC progress:  50.0000%
+MC progress:  30.0000%
+MC progress:  70.0000%
+MC progress:  60.0000%
+MC progress:  40.0000%
+MC progress:  80.0000%
+MC progress:  70.0000%
+MC progress:  90.0000%
+MC progress:  50.0000%
+MC progress:  80.0000%
+MC progress:  60.0000%
+MC progress:  90.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  1.0000
+ising_h  = -1.6000
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  70.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  0.5000
+ising_h  = -1.6000
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  10.0000%
+MC progress:  80.0000%
+MC progress:  10.0000%
+MC progress:  90.0000%
+MC progress:  20.0000%
+MC progress:  20.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  2.0000
+ising_h  = -1.3600
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  30.0000%
+MC progress:  30.0000%
+MC progress:  10.0000%
+MC progress:  40.0000%
+MC progress:  40.0000%
+MC progress:  50.0000%
+MC progress:  50.0000%
+MC progress:  20.0000%
+MC progress:  60.0000%
+MC progress:  30.0000%
+MC progress:  60.0000%
+MC progress:  40.0000%
+MC progress:  70.0000%
+MC progress:  70.0000%
+MC progress:  50.0000%
+MC progress:  80.0000%
+MC progress:  90.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  1.0000
+ising_h  = -1.5200
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  60.0000%
+MC progress:  80.0000%
+MC progress:  70.0000%
+MC progress:  80.0000%
+MC progress:  90.0000%
+MC progress:  90.0000%
+MC progress:  10.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  2.0000
+ising_h  = -1.2800
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  20.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  0.5000
+ising_h  = -1.5200
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  30.0000%
+MC progress:  10.0000%
+MC progress:  10.0000%
+MC progress:  40.0000%
+MC progress:  20.0000%
+MC progress:  50.0000%
+MC progress:  30.0000%
+MC progress:  20.0000%
+MC progress:  60.0000%
+MC progress:  40.0000%
+MC progress:  70.0000%
+MC progress:  50.0000%
+MC progress:  30.0000%
+MC progress:  60.0000%
+MC progress:  80.0000%
+MC progress:  70.0000%
+MC progress:  40.0000%
+MC progress:  80.0000%
+MC progress:  50.0000%
+MC progress:  90.0000%
+MC progress:  90.0000%
+MC progress:  60.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  1.0000
+ising_h  = -1.4400
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  2.0000
+ising_h  = -1.2000
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  70.0000%
+MC progress:  10.0000%
+MC progress:  10.0000%
+MC progress:  80.0000%
+MC progress:  90.0000%
+MC progress:  20.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  0.5000
+ising_h  = -1.4400
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  20.0000%
+MC progress:  10.0000%
+MC progress:  20.0000%
+MC progress:  30.0000%
+MC progress:  30.0000%
+MC progress:  30.0000%
+MC progress:  40.0000%
+MC progress:  40.0000%
+MC progress:  50.0000%
+MC progress:  60.0000%
+MC progress:  40.0000%
+MC progress:  70.0000%
+MC progress:  50.0000%
+MC progress:  50.0000%
+MC progress:  80.0000%
+MC progress:  60.0000%
+MC progress:  60.0000%
+MC progress:  90.0000%
+MC progress:  70.0000%
+MC progress:  70.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  1.0000
+ising_h  = -1.3600
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  80.0000%
+MC progress:  80.0000%
+MC progress:  10.0000%
+MC progress:  90.0000%
+MC progress:  20.0000%
+MC progress:  90.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  0.5000
+ising_h  = -1.3600
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  30.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  2.0000
+ising_h  = -1.1200
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  10.0000%
+MC progress:  40.0000%
+MC progress:  10.0000%
+MC progress:  20.0000%
+MC progress:  20.0000%
+MC progress:  50.0000%
+MC progress:  30.0000%
+MC progress:  30.0000%
+MC progress:  40.0000%
+MC progress:  60.0000%
+MC progress:  50.0000%
+MC progress:  60.0000%
+MC progress:  70.0000%
+MC progress:  40.0000%
+MC progress:  70.0000%
+MC progress:  80.0000%
+MC progress:  50.0000%
+MC progress:  90.0000%
+MC progress:  80.0000%
+MC progress:  60.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  0.5000
+ising_h  = -1.2800
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  70.0000%
+MC progress:  90.0000%
+MC progress:  10.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  1.0000
+ising_h  = -1.2800
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  80.0000%
+MC progress:  20.0000%
+MC progress:  10.0000%
+MC progress:  90.0000%
+MC progress:  20.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  2.0000
+ising_h  = -1.0400
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  30.0000%
+MC progress:  30.0000%
+MC progress:  10.0000%
+MC progress:  40.0000%
+MC progress:  40.0000%
+MC progress:  20.0000%
+MC progress:  50.0000%
+MC progress:  50.0000%
+MC progress:  30.0000%
+MC progress:  60.0000%
+MC progress:  40.0000%
+MC progress:  60.0000%
+MC progress:  70.0000%
+MC progress:  50.0000%
+MC progress:  70.0000%
+MC progress:  60.0000%
+MC progress:  80.0000%
+MC progress:  70.0000%
+MC progress:  80.0000%
+MC progress:  90.0000%
+MC progress:  80.0000%
+MC progress:  90.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  0.5000
+ising_h  = -1.2000
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  90.0000%
+MC progress:  10.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  1.0000
+ising_h  = -1.2000
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  2.0000
+ising_h  = -0.9600
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  20.0000%
+MC progress:  10.0000%
+MC progress:  10.0000%
+MC progress:  20.0000%
+MC progress:  30.0000%
+MC progress:  20.0000%
+MC progress:  30.0000%
+MC progress:  40.0000%
+MC progress:  40.0000%
+MC progress:  50.0000%
+MC progress:  30.0000%
+MC progress:  60.0000%
+MC progress:  50.0000%
+MC progress:  70.0000%
+MC progress:  40.0000%
+MC progress:  80.0000%
+MC progress:  60.0000%
+MC progress:  90.0000%
+MC progress:  70.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  2.0000
+ising_h  = -0.8800
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  50.0000%
+MC progress:  10.0000%
+MC progress:  20.0000%
+MC progress:  30.0000%
+MC progress:  80.0000%
+MC progress:  60.0000%
+MC progress:  40.0000%
+MC progress:  50.0000%
+MC progress:  60.0000%
+MC progress:  70.0000%
+MC progress:  70.0000%
+MC progress:  80.0000%
+MC progress:  90.0000%
+MC progress:  90.0000%
+MC progress:  80.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  0.5000
+ising_h  = -1.1200
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  2.0000
+ising_h  = -0.8000
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  90.0000%
+MC progress:  10.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  1.0000
+ising_h  = -1.1200
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  10.0000%
+MC progress:  20.0000%
+MC progress:  10.0000%
+MC progress:  20.0000%
+MC progress:  30.0000%
+MC progress:  20.0000%
+MC progress:  30.0000%
+MC progress:  40.0000%
+MC progress:  30.0000%
+MC progress:  40.0000%
+MC progress:  50.0000%
+MC progress:  40.0000%
+MC progress:  50.0000%
+MC progress:  60.0000%
+MC progress:  50.0000%
+MC progress:  70.0000%
+MC progress:  60.0000%
+MC progress:  60.0000%
+MC progress:  70.0000%
+MC progress:  80.0000%
+MC progress:  70.0000%
+MC progress:  80.0000%
+MC progress:  90.0000%
+MC progress:  80.0000%
+MC progress:  90.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  0.5000
+ising_h  = -1.0400
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  90.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  2.0000
+ising_h  = -0.7200
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  10.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  1.0000
+ising_h  = -1.0400
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  10.0000%
+MC progress:  20.0000%
+MC progress:  10.0000%
+MC progress:  20.0000%
+MC progress:  20.0000%
+MC progress:  30.0000%
+MC progress:  30.0000%
+MC progress:  40.0000%
+MC progress:  30.0000%
+MC progress:  40.0000%
+MC progress:  50.0000%
+MC progress:  40.0000%
+MC progress:  50.0000%
+MC progress:  60.0000%
+MC progress:  50.0000%
+MC progress:  60.0000%
+MC progress:  70.0000%
+MC progress:  70.0000%
+MC progress:  60.0000%
+MC progress:  80.0000%
+MC progress:  80.0000%
+MC progress:  70.0000%
+MC progress:  90.0000%
+MC progress:  90.0000%
+MC progress:  80.0000%
+MC progress:  90.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  1.0000
+ising_h  = -0.9600
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  0.5000
+ising_h  = -0.9600
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  2.0000
+ising_h  = -0.6400
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  10.0000%
+MC progress:  10.0000%
+MC progress:  10.0000%
+MC progress:  20.0000%
+MC progress:  20.0000%
+MC progress:  20.0000%
+MC progress:  30.0000%
+MC progress:  30.0000%
+MC progress:  30.0000%
+MC progress:  40.0000%
+MC progress:  40.0000%
+MC progress:  50.0000%
+MC progress:  40.0000%
+MC progress:  50.0000%
+MC progress:  60.0000%
+MC progress:  50.0000%
+MC progress:  70.0000%
+MC progress:  60.0000%
+MC progress:  60.0000%
+MC progress:  80.0000%
+MC progress:  90.0000%
+MC progress:  70.0000%
+MC progress:  70.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  0.5000
+ising_h  = -0.8800
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  80.0000%
+MC progress:  10.0000%
+MC progress:  80.0000%
+MC progress:  90.0000%
+MC progress:  20.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  1.0000
+ising_h  = -0.8800
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  90.0000%
+MC progress:  10.0000%
+MC progress:  30.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  2.0000
+ising_h  = -0.5600
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  20.0000%
+MC progress:  40.0000%
+MC progress:  10.0000%
+MC progress:  30.0000%
+MC progress:  20.0000%
+MC progress:  50.0000%
+MC progress:  40.0000%
+MC progress:  30.0000%
+MC progress:  60.0000%
+MC progress:  50.0000%
+MC progress:  40.0000%
+MC progress:  70.0000%
+MC progress:  60.0000%
+MC progress:  50.0000%
+MC progress:  80.0000%
+MC progress:  60.0000%
+MC progress:  90.0000%
+MC progress:  70.0000%
+MC progress:  70.0000%
+MC progress:  80.0000%
+MC progress:  80.0000%
+MC progress:  90.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  0.5000
+ising_h  = -0.8000
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  90.0000%
+MC progress:  10.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  2.0000
+ising_h  = -0.4800
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  1.0000
+ising_h  = -0.8000
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  10.0000%
+MC progress:  20.0000%
+MC progress:  10.0000%
+MC progress:  20.0000%
+MC progress:  30.0000%
+MC progress:  30.0000%
+MC progress:  20.0000%
+MC progress:  40.0000%
+MC progress:  40.0000%
+MC progress:  50.0000%
+MC progress:  50.0000%
+MC progress:  30.0000%
+MC progress:  60.0000%
+MC progress:  60.0000%
+MC progress:  40.0000%
+MC progress:  70.0000%
+MC progress:  70.0000%
+MC progress:  50.0000%
+MC progress:  80.0000%
+MC progress:  80.0000%
+MC progress:  60.0000%
+MC progress:  90.0000%
+MC progress:  90.0000%
+MC progress:  70.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  0.5000
+ising_h  = -0.7200
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  1.0000
+ising_h  = -0.7200
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  80.0000%
+MC progress:  10.0000%
+MC progress:  10.0000%
+MC progress:  90.0000%
+MC progress:  20.0000%
+MC progress:  20.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  2.0000
+ising_h  = -0.4000
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  30.0000%
+MC progress:  30.0000%
+MC progress:  10.0000%
+MC progress:  40.0000%
+MC progress:  40.0000%
+MC progress:  20.0000%
+MC progress:  50.0000%
+MC progress:  30.0000%
+MC progress:  40.0000%
+MC progress:  50.0000%
+MC progress:  60.0000%
+MC progress:  50.0000%
+MC progress:  60.0000%
+MC progress:  70.0000%
+MC progress:  80.0000%
+MC progress:  60.0000%
+MC progress:  70.0000%
+MC progress:  90.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  2.0000
+ising_h  = -0.3200
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  10.0000%
+MC progress:  70.0000%
+MC progress:  20.0000%
+MC progress:  80.0000%
+MC progress:  30.0000%
+MC progress:  40.0000%
+MC progress:  80.0000%
+MC progress:  50.0000%
+MC progress:  90.0000%
+MC progress:  60.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  1.0000
+ising_h  = -0.6400
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  70.0000%
+MC progress:  90.0000%
+MC progress:  10.0000%
+MC progress:  80.0000%
+MC progress:  20.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  0.5000
+ising_h  = -0.6400
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  30.0000%
+MC progress:  10.0000%
+MC progress:  20.0000%
+MC progress:  90.0000%
+MC progress:  30.0000%
+MC progress:  40.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  2.0000
+ising_h  = -0.2400
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  10.0000%
+MC progress:  20.0000%
+MC progress:  50.0000%
+MC progress:  40.0000%
+MC progress:  30.0000%
+MC progress:  60.0000%
+MC progress:  40.0000%
+MC progress:  50.0000%
+MC progress:  70.0000%
+MC progress:  50.0000%
+MC progress:  80.0000%
+MC progress:  60.0000%
+MC progress:  60.0000%
+MC progress:  70.0000%
+MC progress:  90.0000%
+MC progress:  70.0000%
+MC progress:  80.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  1.0000
+ising_h  = -0.5600
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  90.0000%
+MC progress:  10.0000%
+MC progress:  80.0000%
+MC progress:  20.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  0.5000
+ising_h  = -0.5600
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  30.0000%
+MC progress:  10.0000%
+MC progress:  40.0000%
+MC progress:  90.0000%
+MC progress:  20.0000%
+MC progress:  50.0000%
+MC progress:  30.0000%
+MC progress:  60.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  2.0000
+ising_h  = -0.1600
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  70.0000%
+MC progress:  40.0000%
+MC progress:  80.0000%
+MC progress:  10.0000%
+MC progress:  50.0000%
+MC progress:  60.0000%
+MC progress:  90.0000%
+MC progress:  70.0000%
+MC progress:  20.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  1.0000
+ising_h  = -0.4800
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  80.0000%
+MC progress:  30.0000%
+MC progress:  90.0000%
+MC progress:  10.0000%
+MC progress:  40.0000%
+MC progress:  20.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  0.5000
+ising_h  = -0.4800
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  50.0000%
+MC progress:  60.0000%
+MC progress:  10.0000%
+MC progress:  30.0000%
+MC progress:  70.0000%
+MC progress:  20.0000%
+MC progress:  80.0000%
+MC progress:  40.0000%
+MC progress:  90.0000%
+MC progress:  30.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  2.0000
+ising_h  = -0.0800
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  50.0000%
+MC progress:  10.0000%
+MC progress:  60.0000%
+MC progress:  40.0000%
+MC progress:  20.0000%
+MC progress:  50.0000%
+MC progress:  30.0000%
+MC progress:  40.0000%
+MC progress:  70.0000%
+MC progress:  60.0000%
+MC progress:  50.0000%
+MC progress:  80.0000%
+MC progress:  60.0000%
+MC progress:  70.0000%
+MC progress:  70.0000%
+MC progress:  80.0000%
+MC progress:  90.0000%
+MC progress:  80.0000%
+MC progress:  90.0000%
+MC progress:  90.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  1.0000
+ising_h  = -0.4000
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  2.0000
+ising_h  =  0.0000
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  0.5000
+ising_h  = -0.4000
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  10.0000%
+MC progress:  10.0000%
+MC progress:  10.0000%
+MC progress:  20.0000%
+MC progress:  20.0000%
+MC progress:  30.0000%
+MC progress:  40.0000%
+MC progress:  20.0000%
+MC progress:  30.0000%
+MC progress:  50.0000%
+MC progress:  60.0000%
+MC progress:  40.0000%
+MC progress:  30.0000%
+MC progress:  70.0000%
+MC progress:  50.0000%
+MC progress:  80.0000%
+MC progress:  40.0000%
+MC progress:  90.0000%
+MC progress:  60.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  2.0000
+ising_h  =  0.0800
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  50.0000%
+MC progress:  70.0000%
+MC progress:  10.0000%
+MC progress:  60.0000%
+MC progress:  20.0000%
+MC progress:  80.0000%
+MC progress:  30.0000%
+MC progress:  90.0000%
+MC progress:  70.0000%
+MC progress:  40.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  1.0000
+ising_h  = -0.3200
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  80.0000%
+MC progress:  50.0000%
+MC progress:  90.0000%
+MC progress:  10.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  0.5000
+ising_h  = -0.3200
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  60.0000%
+MC progress:  20.0000%
+MC progress:  10.0000%
+MC progress:  30.0000%
+MC progress:  70.0000%
+MC progress:  20.0000%
+MC progress:  80.0000%
+MC progress:  40.0000%
+MC progress:  90.0000%
+MC progress:  30.0000%
+MC progress:  50.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  2.0000
+ising_h  =  0.1600
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  60.0000%
+MC progress:  40.0000%
+MC progress:  70.0000%
+MC progress:  10.0000%
+MC progress:  80.0000%
+MC progress:  20.0000%
+MC progress:  50.0000%
+MC progress:  90.0000%
+MC progress:  30.0000%
+MC progress:  60.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  1.0000
+ising_h  = -0.2400
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  40.0000%
+MC progress:  70.0000%
+MC progress:  50.0000%
+MC progress:  80.0000%
+MC progress:  60.0000%
+MC progress:  10.0000%
+MC progress:  90.0000%
+MC progress:  70.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  0.5000
+ising_h  = -0.2400
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  80.0000%
+MC progress:  10.0000%
+MC progress:  20.0000%
+MC progress:  90.0000%
+MC progress:  20.0000%
+MC progress:  30.0000%
+MC progress:  30.0000%
+MC progress:  40.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  2.0000
+ising_h  =  0.2400
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  40.0000%
+MC progress:  50.0000%
+MC progress:  50.0000%
+MC progress:  10.0000%
+MC progress:  60.0000%
+MC progress:  70.0000%
+MC progress:  80.0000%
+MC progress:  90.0000%
+MC progress:  60.0000%
+MC progress:  20.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  0.5000
+ising_h  = -0.1600
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  10.0000%
+MC progress:  70.0000%
+MC progress:  30.0000%
+MC progress:  40.0000%
+MC progress:  20.0000%
+MC progress:  80.0000%
+MC progress:  50.0000%
+MC progress:  30.0000%
+MC progress:  60.0000%
+MC progress:  90.0000%
+MC progress:  40.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  1.0000
+ising_h  = -0.1600
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  50.0000%
+MC progress:  70.0000%
+MC progress:  60.0000%
+MC progress:  10.0000%
+MC progress:  80.0000%
+MC progress:  90.0000%
+MC progress:  20.0000%
+MC progress:  70.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  2.0000
+ising_h  =  0.3200
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  30.0000%
+MC progress:  80.0000%
+MC progress:  90.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  0.5000
+ising_h  = -0.0800
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  10.0000%
+MC progress:  40.0000%
+MC progress:  10.0000%
+MC progress:  50.0000%
+MC progress:  20.0000%
+MC progress:  30.0000%
+MC progress:  60.0000%
+MC progress:  40.0000%
+MC progress:  20.0000%
+MC progress:  50.0000%
+MC progress:  70.0000%
+MC progress:  30.0000%
+MC progress:  60.0000%
+MC progress:  80.0000%
+MC progress:  70.0000%
+MC progress:  40.0000%
+MC progress:  80.0000%
+MC progress:  90.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  0.5000
+ising_h  =  0.0000
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  10.0000%
+MC progress:  90.0000%
+MC progress:  50.0000%
+MC progress:  20.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  1.0000
+ising_h  = -0.0800
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  60.0000%
+MC progress:  30.0000%
+MC progress:  10.0000%
+MC progress:  40.0000%
+MC progress:  70.0000%
+MC progress:  20.0000%
+MC progress:  50.0000%
+MC progress:  80.0000%
+MC progress:  30.0000%
+MC progress:  40.0000%
+MC progress:  60.0000%
+MC progress:  50.0000%
+MC progress:  90.0000%
+MC progress:  60.0000%
+MC progress:  70.0000%
+MC progress:  70.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  2.0000
+ising_h  =  0.4000
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  80.0000%
+MC progress:  80.0000%
+MC progress:  90.0000%
+MC progress:  10.0000%
+MC progress:  90.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  1.0000
+ising_h  =  0.0000
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  10.0000%
+MC progress:  20.0000%
+MC progress:  20.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  0.5000
+ising_h  =  0.0800
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  30.0000%
+MC progress:  40.0000%
+MC progress:  30.0000%
+MC progress:  50.0000%
+MC progress:  10.0000%
+MC progress:  60.0000%
+MC progress:  40.0000%
+MC progress:  20.0000%
+MC progress:  70.0000%
+MC progress:  80.0000%
+MC progress:  50.0000%
+MC progress:  30.0000%
+MC progress:  90.0000%
+MC progress:  40.0000%
+MC progress:  60.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  1.0000
+ising_h  =  0.0800
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  70.0000%
+MC progress:  50.0000%
+MC progress:  10.0000%
+MC progress:  80.0000%
+MC progress:  60.0000%
+MC progress:  90.0000%
+MC progress:  20.0000%
+MC progress:  70.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  2.0000
+ising_h  =  0.4800
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  30.0000%
+MC progress:  10.0000%
+MC progress:  80.0000%
+MC progress:  40.0000%
+MC progress:  20.0000%
+MC progress:  90.0000%
+MC progress:  30.0000%
+MC progress:  50.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  0.5000
+ising_h  =  0.1600
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  10.0000%
+MC progress:  60.0000%
+MC progress:  40.0000%
+MC progress:  20.0000%
+MC progress:  70.0000%
+MC progress:  50.0000%
+MC progress:  30.0000%
+MC progress:  80.0000%
+MC progress:  40.0000%
+MC progress:  50.0000%
+MC progress:  60.0000%
+MC progress:  90.0000%
+MC progress:  60.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  1.0000
+ising_h  =  0.1600
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  70.0000%
+MC progress:  70.0000%
+MC progress:  10.0000%
+MC progress:  80.0000%
+MC progress:  20.0000%
+MC progress:  80.0000%
+MC progress:  90.0000%
+MC progress:  30.0000%
+MC progress:  90.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  2.0000
+ising_h  =  0.5600
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  40.0000%
+MC progress:  10.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  0.5000
+ising_h  =  0.2400
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  10.0000%
+MC progress:  50.0000%
+MC progress:  20.0000%
+MC progress:  30.0000%
+MC progress:  60.0000%
+MC progress:  20.0000%
+MC progress:  40.0000%
+MC progress:  30.0000%
+MC progress:  50.0000%
+MC progress:  70.0000%
+MC progress:  40.0000%
+MC progress:  50.0000%
+MC progress:  60.0000%
+MC progress:  60.0000%
+MC progress:  80.0000%
+MC progress:  70.0000%
+MC progress:  90.0000%
+MC progress:  70.0000%
+MC progress:  80.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  1.0000
+ising_h  =  0.2400
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  80.0000%
+MC progress:  10.0000%
+MC progress:  90.0000%
+MC progress:  20.0000%
+MC progress:  90.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  2.0000
+ising_h  =  0.6400
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  30.0000%
+MC progress:  10.0000%
+MC progress:  40.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  0.5000
+ising_h  =  0.3200
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  50.0000%
+MC progress:  60.0000%
+MC progress:  20.0000%
+MC progress:  10.0000%
+MC progress:  70.0000%
+MC progress:  80.0000%
+MC progress:  30.0000%
+MC progress:  20.0000%
+MC progress:  90.0000%
+MC progress:  40.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  1.0000
+ising_h  =  0.3200
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  30.0000%
+MC progress:  50.0000%
+MC progress:  10.0000%
+MC progress:  40.0000%
+MC progress:  60.0000%
+MC progress:  20.0000%
+MC progress:  50.0000%
+MC progress:  30.0000%
+MC progress:  70.0000%
+MC progress:  60.0000%
+MC progress:  40.0000%
+MC progress:  80.0000%
+MC progress:  70.0000%
+MC progress:  90.0000%
+MC progress:  50.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  2.0000
+ising_h  =  0.7200
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  80.0000%
+MC progress:  60.0000%
+MC progress:  10.0000%
+MC progress:  90.0000%
+MC progress:  70.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  0.5000
+ising_h  =  0.4000
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  20.0000%
+MC progress:  80.0000%
+MC progress:  10.0000%
+MC progress:  90.0000%
+MC progress:  20.0000%
+MC progress:  30.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  1.0000
+ising_h  =  0.4000
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  10.0000%
+MC progress:  20.0000%
+MC progress:  30.0000%
+MC progress:  30.0000%
+MC progress:  40.0000%
+MC progress:  40.0000%
+MC progress:  40.0000%
+MC progress:  50.0000%
+MC progress:  60.0000%
+MC progress:  50.0000%
+MC progress:  70.0000%
+MC progress:  50.0000%
+MC progress:  80.0000%
+MC progress:  90.0000%
+MC progress:  60.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  1.0000
+ising_h  =  0.4800
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  60.0000%
+MC progress:  70.0000%
+MC progress:  10.0000%
+MC progress:  20.0000%
+MC progress:  80.0000%
+MC progress:  30.0000%
+MC progress:  70.0000%
+MC progress:  90.0000%
+MC progress:  40.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  0.5000
+ising_h  =  0.4800
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  80.0000%
+MC progress:  50.0000%
+MC progress:  10.0000%
+MC progress:  60.0000%
+MC progress:  90.0000%
+MC progress:  20.0000%
+MC progress:  70.0000%
+MC progress:  30.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  2.0000
+ising_h  =  0.8000
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  80.0000%
+MC progress:  40.0000%
+MC progress:  90.0000%
+MC progress:  10.0000%
+MC progress:  50.0000%
+MC progress:  20.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  1.0000
+ising_h  =  0.5600
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  60.0000%
+MC progress:  30.0000%
+MC progress:  10.0000%
+MC progress:  40.0000%
+MC progress:  70.0000%
+MC progress:  20.0000%
+MC progress:  50.0000%
+MC progress:  60.0000%
+MC progress:  30.0000%
+MC progress:  80.0000%
+MC progress:  40.0000%
+MC progress:  70.0000%
+MC progress:  90.0000%
+MC progress:  80.0000%
+MC progress:  50.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  0.5000
+ising_h  =  0.5600
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  60.0000%
+MC progress:  90.0000%
+MC progress:  10.0000%
+MC progress:  70.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  2.0000
+ising_h  =  0.8800
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  20.0000%
+MC progress:  80.0000%
+MC progress:  30.0000%
+MC progress:  90.0000%
+MC progress:  10.0000%
+MC progress:  40.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  1.0000
+ising_h  =  0.6400
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  50.0000%
+MC progress:  10.0000%
+MC progress:  20.0000%
+MC progress:  60.0000%
+MC progress:  20.0000%
+MC progress:  70.0000%
+MC progress:  30.0000%
+MC progress:  30.0000%
+MC progress:  80.0000%
+MC progress:  40.0000%
+MC progress:  40.0000%
+MC progress:  90.0000%
+MC progress:  50.0000%
+MC progress:  50.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  0.5000
+ising_h  =  0.6400
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  60.0000%
+MC progress:  60.0000%
+MC progress:  10.0000%
+MC progress:  70.0000%
+MC progress:  70.0000%
+MC progress:  20.0000%
+MC progress:  80.0000%
+MC progress:  80.0000%
+MC progress:  30.0000%
+MC progress:  90.0000%
+MC progress:  90.0000%
+MC progress:  40.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  1.0000
+ising_h  =  0.7200
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  50.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  2.0000
+ising_h  =  0.9600
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  10.0000%
+MC progress:  60.0000%
+MC progress:  10.0000%
+MC progress:  20.0000%
+MC progress:  70.0000%
+MC progress:  30.0000%
+MC progress:  20.0000%
+MC progress:  80.0000%
+MC progress:  40.0000%
+MC progress:  30.0000%
+MC progress:  90.0000%
+MC progress:  50.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  0.5000
+ising_h  =  0.7200
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  10.0000%
+MC progress:  20.0000%
+MC progress:  40.0000%
+MC progress:  60.0000%
+MC progress:  30.0000%
+MC progress:  50.0000%
+MC progress:  60.0000%
+MC progress:  40.0000%
+MC progress:  70.0000%
+MC progress:  70.0000%
+MC progress:  50.0000%
+MC progress:  80.0000%
+MC progress:  60.0000%
+MC progress:  80.0000%
+MC progress:  90.0000%
+MC progress:  70.0000%
+MC progress:  90.0000%
+MC progress:  80.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  1.0000
+ising_h  =  0.8000
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  10.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  2.0000
+ising_h  =  1.0400
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  20.0000%
+MC progress:  90.0000%
+MC progress:  30.0000%
+MC progress:  10.0000%
+MC progress:  40.0000%
+MC progress:  20.0000%
+MC progress:  50.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  0.5000
+ising_h  =  0.8000
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  60.0000%
+MC progress:  10.0000%
+MC progress:  30.0000%
+MC progress:  20.0000%
+MC progress:  70.0000%
+MC progress:  40.0000%
+MC progress:  80.0000%
+MC progress:  30.0000%
+MC progress:  90.0000%
+MC progress:  40.0000%
+MC progress:  50.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  1.0000
+ising_h  =  0.8800
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  10.0000%
+MC progress:  50.0000%
+MC progress:  60.0000%
+MC progress:  60.0000%
+MC progress:  70.0000%
+MC progress:  20.0000%
+MC progress:  80.0000%
+MC progress:  30.0000%
+MC progress:  90.0000%
+MC progress:  70.0000%
+MC progress:  40.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  0.5000
+ising_h  =  0.8800
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  50.0000%
+MC progress:  80.0000%
+MC progress:  10.0000%
+MC progress:  60.0000%
+MC progress:  20.0000%
+MC progress:  70.0000%
+MC progress:  30.0000%
+MC progress:  90.0000%
+MC progress:  40.0000%
+MC progress:  80.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  2.0000
+ising_h  =  1.1200
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  50.0000%
+MC progress:  10.0000%
+MC progress:  60.0000%
+MC progress:  90.0000%
+MC progress:  70.0000%
+MC progress:  20.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  1.0000
+ising_h  =  0.9600
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  30.0000%
+MC progress:  10.0000%
+MC progress:  80.0000%
+MC progress:  20.0000%
+MC progress:  90.0000%
+MC progress:  30.0000%
+MC progress:  40.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  0.5000
+ising_h  =  0.9600
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  40.0000%
+MC progress:  10.0000%
+MC progress:  50.0000%
+MC progress:  20.0000%
+MC progress:  50.0000%
+MC progress:  30.0000%
+MC progress:  60.0000%
+MC progress:  40.0000%
+MC progress:  60.0000%
+MC progress:  70.0000%
+MC progress:  50.0000%
+MC progress:  70.0000%
+MC progress:  60.0000%
+MC progress:  80.0000%
+MC progress:  70.0000%
+MC progress:  80.0000%
+MC progress:  90.0000%
+MC progress:  80.0000%
+MC progress:  90.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  0.5000
+ising_h  =  1.0400
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  90.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  1.0000
+ising_h  =  1.0400
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  10.0000%
+MC progress:  20.0000%
+MC progress:  30.0000%
+MC progress:  40.0000%
+MC progress:  10.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  2.0000
+ising_h  =  1.2000
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  50.0000%
+MC progress:  20.0000%
+MC progress:  60.0000%
+MC progress:  30.0000%
+MC progress:  70.0000%
+MC progress:  10.0000%
+MC progress:  40.0000%
+MC progress:  80.0000%
+MC progress:  20.0000%
+MC progress:  50.0000%
+MC progress:  90.0000%
+MC progress:  60.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  0.5000
+ising_h  =  1.1200
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  30.0000%
+MC progress:  70.0000%
+MC progress:  10.0000%
+MC progress:  80.0000%
+MC progress:  20.0000%
+MC progress:  30.0000%
+MC progress:  40.0000%
+MC progress:  40.0000%
+MC progress:  50.0000%
+MC progress:  90.0000%
+MC progress:  60.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  1.0000
+ising_h  =  1.1200
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  70.0000%
+MC progress:  50.0000%
+MC progress:  80.0000%
+MC progress:  60.0000%
+MC progress:  90.0000%
+MC progress:  10.0000%
+MC progress:  70.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  0.5000
+ising_h  =  1.2000
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  80.0000%
+MC progress:  10.0000%
+MC progress:  20.0000%
+MC progress:  90.0000%
+MC progress:  20.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  2.0000
+ising_h  =  1.2800
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  10.0000%
+MC progress:  30.0000%
+MC progress:  20.0000%
+MC progress:  30.0000%
+MC progress:  30.0000%
+MC progress:  40.0000%
+MC progress:  40.0000%
+MC progress:  40.0000%
+MC progress:  50.0000%
+MC progress:  50.0000%
+MC progress:  60.0000%
+MC progress:  50.0000%
+MC progress:  60.0000%
+MC progress:  70.0000%
+MC progress:  70.0000%
+MC progress:  60.0000%
+MC progress:  80.0000%
+MC progress:  80.0000%
+MC progress:  70.0000%
+MC progress:  90.0000%
+MC progress:  90.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  2.0000
+ising_h  =  1.3600
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  80.0000%
+MC progress:  10.0000%
+MC progress:  90.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  1.0000
+ising_h  =  1.2000
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  20.0000%
+MC progress:  10.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  0.5000
+ising_h  =  1.2800
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  10.0000%
+MC progress:  20.0000%
+MC progress:  30.0000%
+MC progress:  20.0000%
+MC progress:  30.0000%
+MC progress:  40.0000%
+MC progress:  30.0000%
+MC progress:  50.0000%
+MC progress:  40.0000%
+MC progress:  40.0000%
+MC progress:  50.0000%
+MC progress:  50.0000%
+MC progress:  60.0000%
+MC progress:  60.0000%
+MC progress:  60.0000%
+MC progress:  70.0000%
+MC progress:  70.0000%
+MC progress:  80.0000%
+MC progress:  70.0000%
+MC progress:  90.0000%
+MC progress:  80.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  1.0000
+ising_h  =  1.2800
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  90.0000%
+MC progress:  80.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  0.5000
+ising_h  =  1.3600
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  10.0000%
+MC progress:  10.0000%
+MC progress:  20.0000%
+MC progress:  90.0000%
+MC progress:  20.0000%
+MC progress:  30.0000%
+MC progress:  40.0000%
+MC progress:  50.0000%
+MC progress:  30.0000%
+MC progress:  60.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  2.0000
+ising_h  =  1.4400
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  70.0000%
+MC progress:  40.0000%
+MC progress:  80.0000%
+MC progress:  50.0000%
+MC progress:  90.0000%
+MC progress:  10.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  0.5000
+ising_h  =  1.4400
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  60.0000%
+MC progress:  20.0000%
+MC progress:  30.0000%
+MC progress:  70.0000%
+MC progress:  10.0000%
+MC progress:  40.0000%
+MC progress:  50.0000%
+MC progress:  60.0000%
+MC progress:  70.0000%
+MC progress:  80.0000%
+MC progress:  80.0000%
+MC progress:  20.0000%
+MC progress:  90.0000%
+MC progress:  90.0000%
+MC progress:  30.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  1.0000
+ising_h  =  1.3600
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  2.0000
+ising_h  =  1.5200
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  10.0000%
+MC progress:  20.0000%
+MC progress:  10.0000%
+MC progress:  40.0000%
+MC progress:  30.0000%
+MC progress:  20.0000%
+MC progress:  40.0000%
+MC progress:  50.0000%
+MC progress:  50.0000%
+MC progress:  30.0000%
+MC progress:  60.0000%
+MC progress:  60.0000%
+MC progress:  40.0000%
+MC progress:  70.0000%
+MC progress:  50.0000%
+MC progress:  80.0000%
+MC progress:  70.0000%
+MC progress:  60.0000%
+MC progress:  70.0000%
+MC progress:  90.0000%
+MC progress:  80.0000%
+MC progress:  80.0000%
+MC progress:  90.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  0.5000
+ising_h  =  1.5200
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  90.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  1.0000
+ising_h  =  1.4400
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  10.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  2.0000
+ising_h  =  1.6000
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  10.0000%
+MC progress:  20.0000%
+MC progress:  20.0000%
+MC progress:  10.0000%
+MC progress:  30.0000%
+MC progress:  30.0000%
+MC progress:  20.0000%
+MC progress:  40.0000%
+MC progress:  40.0000%
+MC progress:  30.0000%
+MC progress:  50.0000%
+MC progress:  40.0000%
+MC progress:  50.0000%
+MC progress:  60.0000%
+MC progress:  50.0000%
+MC progress:  70.0000%
+MC progress:  60.0000%
+MC progress:  60.0000%
+MC progress:  80.0000%
+MC progress:  70.0000%
+MC progress:  70.0000%
+MC progress:  90.0000%
+MC progress:  80.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  1.0000
+ising_h  =  1.5200
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  80.0000%
+MC progress:  90.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  2.0000
+ising_h  =  1.6800
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  10.0000%
+MC progress:  90.0000%
+MC progress:  10.0000%
+MC progress:  20.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  0.5000
+ising_h  =  1.6000
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  20.0000%
+MC progress:  30.0000%
+MC progress:  10.0000%
+MC progress:  40.0000%
+MC progress:  30.0000%
+MC progress:  20.0000%
+MC progress:  50.0000%
+MC progress:  40.0000%
+MC progress:  60.0000%
+MC progress:  30.0000%
+MC progress:  50.0000%
+MC progress:  70.0000%
+MC progress:  80.0000%
+MC progress:  40.0000%
+MC progress:  90.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  1.0000
+ising_h  =  1.6000
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  10.0000%
+MC progress:  20.0000%
+MC progress:  60.0000%
+MC progress:  30.0000%
+MC progress:  40.0000%
+MC progress:  50.0000%
+MC progress:  50.0000%
+MC progress:  60.0000%
+MC progress:  70.0000%
+MC progress:  70.0000%
+MC progress:  80.0000%
+MC progress:  60.0000%
+MC progress:  80.0000%
+MC progress:  70.0000%
+MC progress:  90.0000%
+MC progress:  90.0000%
+MC progress:  80.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  2.0000
+ising_h  =  1.7600
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  90.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  0.5000
+ising_h  =  1.6800
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  1.0000
+ising_h  =  1.6800
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  10.0000%
+MC progress:  10.0000%
+MC progress:  10.0000%
+MC progress:  20.0000%
+MC progress:  20.0000%
+MC progress:  20.0000%
+MC progress:  30.0000%
+MC progress:  30.0000%
+MC progress:  30.0000%
+MC progress:  40.0000%
+MC progress:  40.0000%
+MC progress:  40.0000%
+MC progress:  50.0000%
+MC progress:  50.0000%
+MC progress:  50.0000%
+MC progress:  60.0000%
+MC progress:  60.0000%
+MC progress:  70.0000%
+MC progress:  80.0000%
+MC progress:  60.0000%
+MC progress:  70.0000%
+MC progress:  70.0000%
+MC progress:  90.0000%
+MC progress:  80.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  0.5000
+ising_h  =  1.7600
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  80.0000%
+MC progress:  10.0000%
+MC progress:  90.0000%
+MC progress:  90.0000%
+MC progress:  20.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  2.0000
+ising_h  =  1.8400
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  1.0000
+ising_h  =  1.7600
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  30.0000%
+MC progress:  10.0000%
+MC progress:  10.0000%
+MC progress:  20.0000%
+MC progress:  20.0000%
+MC progress:  40.0000%
+MC progress:  30.0000%
+MC progress:  30.0000%
+MC progress:  40.0000%
+MC progress:  50.0000%
+MC progress:  40.0000%
+MC progress:  50.0000%
+MC progress:  60.0000%
+MC progress:  50.0000%
+MC progress:  60.0000%
+MC progress:  70.0000%
+MC progress:  60.0000%
+MC progress:  80.0000%
+MC progress:  70.0000%
+MC progress:  90.0000%
+MC progress:  70.0000%
+MC progress:  80.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  0.5000
+ising_h  =  1.8400
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  10.0000%
+MC progress:  90.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  1.0000
+ising_h  =  1.8400
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  20.0000%
+MC progress:  80.0000%
+MC progress:  10.0000%
+MC progress:  20.0000%
+MC progress:  30.0000%
+MC progress:  30.0000%
+MC progress:  90.0000%
+MC progress:  40.0000%
+MC progress:  40.0000%
+MC progress:  50.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  2.0000
+ising_h  =  1.9200
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  60.0000%
+MC progress:  50.0000%
+MC progress:  10.0000%
+MC progress:  70.0000%
+MC progress:  20.0000%
+MC progress:  80.0000%
+MC progress:  60.0000%
+MC progress:  30.0000%
+MC progress:  90.0000%
+MC progress:  70.0000%
+MC progress:  40.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  0.5000
+ising_h  =  1.9200
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  80.0000%
+MC progress:  10.0000%
+MC progress:  90.0000%
+MC progress:  50.0000%
+MC progress:  20.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  1.0000
+ising_h  =  1.9200
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  30.0000%
+MC progress:  10.0000%
+MC progress:  60.0000%
+MC progress:  40.0000%
+MC progress:  20.0000%
+MC progress:  50.0000%
+MC progress:  30.0000%
+MC progress:  70.0000%
+MC progress:  60.0000%
+MC progress:  40.0000%
+MC progress:  70.0000%
+MC progress:  50.0000%
+MC progress:  80.0000%
+MC progress:  80.0000%
+MC progress:  60.0000%
+MC progress:  90.0000%
+MC progress:  90.0000%
+MC progress:  70.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  0.5000
+ising_h  =  2.0000
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  80.0000%
+MC progress:  10.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  2.0000
+ising_h  =  2.0000
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  90.0000%
+MC progress:  20.0000%
+
+Setting up Ising model.
+num_spin =  100
+beta     =  1.0000
+ising_h  =  2.0000
+ising_j  =  1.0000
+
+Performing sweep...
+MC progress:   0.0000%
+MC progress:  30.0000%
+MC progress:  10.0000%
+MC progress:  10.0000%
+MC progress:  40.0000%
+MC progress:  20.0000%
+MC progress:  50.0000%
+MC progress:  20.0000%
+MC progress:  30.0000%
+MC progress:  60.0000%
+MC progress:  70.0000%
+MC progress:  40.0000%
+MC progress:  30.0000%
+MC progress:  80.0000%
+MC progress:  50.0000%
+MC progress:  90.0000%
+MC progress:  60.0000%
+MC progress:  40.0000%
+MC progress:  70.0000%
+MC progress:  80.0000%
+MC progress:  50.0000%
+MC progress:  90.0000%
+MC progress:  60.0000%
+MC progress:  70.0000%
+MC progress:  80.0000%
+MC progress:  90.0000%
