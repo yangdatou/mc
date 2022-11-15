@@ -22,7 +22,7 @@ def get_ene_diff(config, i : int, ising_h : float, ising_j : float):
     ene_diff += 2.0 * config[i % 100] * config[(i+1) % 100] * ising_j
     return ene_diff
 
-def sweep(config: numpy.ndarray, ising_h: float, ising_j: float, beta: float, max_step: int):
+def kernel(config: numpy.ndarray, ising_h: float, ising_j: float, beta: float, max_sweep: int):
     """Perform a Monte Carlo sweep.
     Args:
         config (numpy.ndarray): The current configuration.
@@ -37,7 +37,7 @@ def sweep(config: numpy.ndarray, ising_h: float, ising_j: float, beta: float, ma
 
     m_list = []
 
-    istep = 0
+    isweep = 0
     print("\nSetting up Ising model.", flush=True)
     print("num_spin = ", config.shape[0], flush=True)
     print("beta     = % 6.4f" % beta, flush=True)
@@ -45,7 +45,7 @@ def sweep(config: numpy.ndarray, ising_h: float, ising_j: float, beta: float, ma
     print("ising_j  = % 6.4f" % ising_j, flush=True)
 
     print("\nPerforming sweep...")
-    while istep < max_step:
+    while isweep < max_sweep:
         for i in range(NUM_SPIN):
             ene_diff = get_ene_diff(config, i, ising_h, ising_j)
             if ene_diff <= 0.0:
@@ -53,11 +53,11 @@ def sweep(config: numpy.ndarray, ising_h: float, ising_j: float, beta: float, ma
             elif numpy.random.rand() < numpy.exp(-beta * ene_diff):
                 config[i] *= -1
         
-        if istep / max_step * 100 % 10 == 0:
-            print(f"MC progress: {(istep / max_step * 100): 8.4f}%", flush=True)
+        if isweep / max_sweep * 100 % 10 == 0:
+            print(f"MC progress: {(isweep / max_sweep * 100): 8.4f}%", flush=True)
 
         m_list.append(numpy.sum(config))
-        istep += 1
+        isweep += 1
         
     return m_list
 
@@ -66,14 +66,14 @@ if __name__ == "__main__":
     temp = float(sys.argv[1])
 
     mm = []
-    config0 = numpy.ones(NUM_SPIN, dtype = int)
-    config0[numpy.random.choice(NUM_SPIN, NUM_SPIN//2, replace = False)] = -1
-
+    
     for h in numpy.linspace(-2.0, 2.0, NUM_FIELD):
-        m_list = sweep(config0.copy(), h, 1.0, 1.0/temp, NUM_STEP)
+        config0 = numpy.ones(NUM_SPIN, dtype = int)
+        config0[numpy.random.choice(NUM_SPIN, NUM_SPIN//2, replace = False)] = -1
+        m_list = kernel(config0.copy(), h, 1.0, 1.0/temp, NUM_STEP)
         mm.append(m_list)
 
     mm = numpy.asarray(mm)
     mm.reshape((NUM_FIELD, NUM_STEP))
 
-    numpy.savetxt(f"./data/ising_1d_h_{temp:6.4f}.csv", mm, fmt = "%12.8f", delimiter = ", ")
+    numpy.savetxt(f"./data/ising_1d_temp_{temp:6.4f}.csv", mm, fmt = "%12.8f", delimiter = ", ")
